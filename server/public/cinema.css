@@ -1,0 +1,65 @@
+body{
+    /* background-image: url("https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    background-size: cover;
+    background-color: black;
+}
+
+select{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: yellow;
+    border-radius: 10px;
+}
+
+img{
+    height: 300px;
+}
+
+
+small{
+    color: yellow;
+}
+
+
+label{
+    color: yellow;
+}
+
+p{
+    font-size: 25px;
+
+}
+
+
+
+.seat {
+    background-color: green;
+    height: 30px;
+    width: 35px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.seat.selected {
+    background-color: blue;
+}
+
+.seat.occupied {
+    background-color: grey;
+}
+
+.seat:nth-child(4n) {
+    margin-right: 20px;
+}
+
+.screen {
+    background-color: silver;
+    height: 70px;
+    width: 100%;
+    margin: 15px -15px;
+    transform: perspective(400px) rotateX(-45deg);
+}
+

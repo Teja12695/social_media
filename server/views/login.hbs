@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div style="text-align: center;">
+    <div class="main">
+        <div class="login">
+            <div class="head">
+                <div>
+                    <a  href="posts.html" class="signIn">Sign In</a>
+                </div>
+                <div>
+                    <ul>
+                        <li class="icons"><a href="#" class="fa fa-facebook"></a></li>
+                        <li class="icons"><a href="#" class="fa fa-twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user">
+                <form action="/login" method="post">
+                    <label for="username">Username</label><br>
+                    <input type="text" name="username" id="username" placeholder="Username"><br><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" placeholder="Password"><br><br>
+                    <input class="button" type="submit" value="Sign In"><br><br>
+                    <input  type="checkbox" name="Remember" class="cehk"><span>Remember me</span>
+                    <br>
+                    <br> <a class="forgetpassword" href="#"> forgot password ?</a>
+                </form>
+            </div>
+        </div>
+        <div class="register">
+            <div>
+                <form action="/signup">
+                <h2>Welcome to <span>Real_News</span> media</h2>
+                <h3>If you are a new user please sign up by clicking sign up button</h3>
+                <input id="register" type="submit" value="Sign up">
+               </form>
+            </div>
+        </div>
+    </div>
+</div>  
+</html>
